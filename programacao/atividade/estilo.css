@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex{
+    display: flex;
+}
+
+.linha{
+    height: 33.33%;
+    display: flex;
+}
+
+.azul{
+    background-color: blue;
+    height: 100%;
+    width: 50%;
+    justify-content: start;
+    align-items: center;
+}
+
+.amarelo{
+    background-color: yellow;
+    justify-content: end;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+}
+
+.amarelinho{
+    background-color: yellow;
+    height: 70px;
+    width: 70px;
+}
+
+.azulzinho{
+    background-color: blue;
+    height: 70px;
+    width: 70px;
+}
+
+.centro{
+    justify-content: center;
+    align-items: start;
+}
+
+.fim{
+    justify-content: center;
+    align-items: end;
+}
