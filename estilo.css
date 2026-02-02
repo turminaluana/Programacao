@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex{
+    display: flex;
+}
+
+.tela{
+    height: 80vh;
+    width: 60%;
+    background-color: aquamarine;
+    border-radius: 2cm;
+}
+
+.lado1{
+    height: 100%;
+    width: 40%;
+    border-radius: 2cm 0cm 0cm 2cm;
+    background-color: rgba(66, 60, 60, 0.616);
+}
+
+.lado2{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.botao{
+    background-color: rgba(66, 60, 60, 0.616);
+    
+}
